@@ -1,32 +1,283 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Cecelia's Website</title>
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
+
+<head>
+    <title>Cecelia's Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
 <body>
-    <section class="hero is-fullheight is-dark">
-        <div class="hero-body">
-            <div class="container">
-            <div class="columns is-vcentered is-centered">
-                <div class="column is-6">
-                    <div class="block">
-                        <h1 class="title is-2">Welcome to Cecelia's Website.</h1>
+    <section class="hero is-fullheight is-white">
+        <!-- <div class="menu"> -->
+        <nav role="navigation">
+            <div id="menuToggle">
+                <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+                <input type="checkbox" />
+
+                <!--
+          Some spans to act as a hamburger.
+          
+          They are acting like a real hamburger,
+          not that McDonalds stuff.
+          -->
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!--
+          Too bad the menu has to be inside of the button
+          but hey, it's pure CSS magic.
+          -->
+                <ul id="menu">
+                    <a href="#home">
+                        <li>Home</li>
+                    </a>
+                    <a href="#2022">
+                        <li>2022</li>
+                    </a>
+                    <a href="#2021">
+                        <li>2021</li>
+                    </a>
+                    <a href="#2020">
+                        <li>2020</li>
+                    </a>
+                    <a href="#2019">
+                        <li>2019</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+        <!-- </div> -->
+
+
+        <!--START PART home-->
+        <section id="home">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-vcentered is-centered">
+                        <div class="column is-6">
+                            <div class="block">
+                                <img src="/Assets/5143312.jpg" alt="Coding Girl">
+                                <a href="http://www.freepik.com">Designed by Freepik</a>
+                            </div>
+                            <div class="block">
+                                <h1 class="title is-2">Welcome to Cecelia's Portfolio Website.</h1>
+                            </div>
+                            <div class="block">
+                                <h2 class="subtitle">Here's shows the past projects by Cecelia.<br>
+                                </h2>
+                            </div>
+                            <div class="block buttons">
+                                <a href="https://github.com/Cecelia-1018"><button
+                                        class="button is-black is-outlined">Visit my Github</button></a> &nbsp;
+                            </div>
+                        </div>
                     </div>
-                    <div class="block">
-                        <h2 class="subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br>
-                        </h2>
-                    </div>
-                    <div class="block buttons">
-                        <a href="https://facebook.com/"><button class="button is-white is-outlined">Visit my Facebook</button></a> &nbsp;
-                        <a href="https://twitter.com/"><button class="button is-white is-outlined">Visit my Twitter</button></a>
-                    </div>
+
                 </div>
             </div>
+        </section>
+        <!--END PART home-->
+
+        <!--START PART 2022-->
+        <section id="2022" style="background-color:rgb(255, 71, 132);">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-vcentered is-centered">
+                        <div class="column is-6">
+                            <div class="block">
+                                <!-- <img src="5143312.jpg" alt="Coding Girl">
+                                <a href="http://www.freepik.com">Designed by Freepik</a> -->
+                            </div>
+                            <div class="block">
+                                <h1 class="title is-2">2022 Project</h1>
+                            </div>
+                            <div class="block">
+                                <h2 class="subtitle">SuperMama Social Media App<br>
+                                </h2>
+                            </div>
+                            <div class="block buttons">
+                                <a href="https://github.com/Cecelia-1018"><button
+                                        class="button is-black is-outlined">source code</button></a> &nbsp;
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        </div>
+        </section>
+        <!--END PART 2022-->
+
+        <!--START PART 2021-->
+        <section id="2021" style="background-color:Tomato;">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-vcentered is-centered">
+                        <div class="column is-6">
+                            <div class="block">
+                                <!-- <img src="5143312.jpg" alt="Coding Girl">
+                                <a href="http://www.freepik.com">Designed by Freepik</a> -->
+                            </div>
+                            <div class="block">
+                                <h1 class="title is-2">2021 Projects</h1>
+                            </div>
+                            <div class="block">
+                                <h2 class="subtitle">XXXXXX<br>
+                                </h2>
+                            </div>
+                            <div class="block buttons">
+                                <a href="https://github.com/Cecelia-1018"><button
+                                        class="button is-black is-outlined">source code</button></a> &nbsp;
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--END PART 2021-->
+
+        <!--START PART 2020-->
+        <section id="2020" style="background-color:Orange;">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-vcentered is-centered">
+                        <div class="column is-6">
+                            <div class="block">
+                                <!-- <img src="5143312.jpg" alt="Coding Girl">
+                                <a href="http://www.freepik.com">Designed by Freepik</a> -->
+                            </div>
+
+                            <div class="block">
+                                <h1 class="title is-2">2020 Projects</h1>
+                            </div>
+
+
+
+                            <div class="block">
+                                <h2 class="subtitle"><b>Event Decoration Console System</b></h2>
+                                <h6> This console system mainly focus on giving user to order the event decoration item
+                                    according to different type of event such as
+                                    Wedding, Birthday party, Anniversary and Graduation celebration.
+                                    Owner of the event decoration shop can eliminate uses of man workforce and save
+                                    staff salary.
+                                    Saves time for users to get to the store and do the booking for decoration.
+                                    Customers could use this system for booking in the shop no matter where the staff
+                                    is.
+
+                                </h6>
+                            </div>
+
+                            <div class="block">
+                                <h5 class="text"><b>Skill Or Tech Used</b></h5>
+                                <img style="height: 50%; width: 50%;" src="/Assets/java-logo.png" alt="Java">
+                            </div>
+
+                            <div class="block">
+                                <h5 class="text"><b>Results</b></h5>
+                                <video width="640" height="480" controls>
+                                    <source src="Assets/EventDeco.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+                            <div class="block">
+                                <h5 class="text">Produced by Wong Wai Yi,Joe and Cecelia.</h5>
+                            </div>
+
+                            <div class="block buttons">
+                                <a href="/Source/EventDeco (4).zip " download><button
+                                        class="button is-black is-outlined">Click for Source Code</button></a> &nbsp;
+                            </div>
+
+                            <div class="block">
+                                <h2 class="subtitle"><b>Prototyping Design of BEON Inventory Control System</b></h2>
+                                <h6> This prototype is part of design phase include in the SDLC report. The data input
+                                    screen help developers to validate input data and explore ideas on how a inventory
+                                    control system looks like.
+                                </h6>
+                            </div>
+
+                            <div class="block">
+                                <h5 class="text"><b>Skill Or Tech Used</b></h5>
+                                <img style="height: 50%; width: 50%;" src="/Assets/UXPin.png" alt="Coding Girl">
+                            </div>
+
+                            <div class="block">
+                                <h5 class="text"><b>Results</b></h5>
+                                <img src="/Assets/BEON.png" alt="BEON">
+                            </div>
+
+                            <div class="block">
+                                <h5 class="text">Designed by Cecelia, inspired by Liana Ling, Wong Wai Yi,Chor Shi Xuan
+                                    and Joe.</h5>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--END PART 2020-->
+
+        <!--START PART 2019-->
+        <section id="2019" style="background-color:#fff;">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-vcentered is-centered">
+                        <div class="column is-6">
+
+                            <div class="block">
+                                <h1 class="title is-2">2019 Projects</h1>
+                            </div>
+
+                            <div class="block">
+                                <h2 class="subtitle"><b>Web Design of Media Creator Studio</b></h2>
+                                <h6>This website is proposed to attract various content creators and give brief
+                                    information for interested individuals and allow a path of contact through the
+                                    website.
+                                </h6>
+                            </div>
+
+                            <div class="block">
+                                <h5 class="text"><b>Skill Or Tech Used</b></h5>
+                                <img style="height: 50%; width: 50%;" src="/Assets/htmljscss.png" alt="Coding Girl">
+                            </div>
+
+                            <div class="block">
+                                <h5 class="text"><b>Results</b></h5>
+                                <video width="640" height="480" controls>
+                                    <source src="Assets/2019.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+                            <div class="block">
+                                <h5 class="text">Produced by Joe, Marcus and Cecelia.</h5>
+                            </div>
+
+                            <div class="block buttons">
+                                <a href="/Source/JMC Studio 2019 .zip " download><button
+                                        class="button is-black is-outlined">Click for Source Code</button></a> &nbsp;
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--END PART 2020-->
+
+
+
     </section>
 </body>
+
 </html>
